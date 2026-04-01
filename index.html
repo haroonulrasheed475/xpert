@@ -468,6 +468,17 @@
 
         <div class="projects-grid">
             <div class="project-card scroll-reveal">
+                <div class="project-image cursor-pointer" onclick="openLightbox('image/electspargo.png', 'Electspargo')">
+                    <img src="image/electspargo.png" alt="Electspargo">
+                    <div class="project-overlay">
+                        <div class="project-info cursor-pointer" onclick="event.stopPropagation(); window.open('https://electspargo.com/', '_blank')">
+                            <h3 class="project-link">Electspargo</h3>
+                            <p class="project-link">Website Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card scroll-reveal">
                 <div class="project-image cursor-pointer" onclick="openLightbox('https://xpertsols.com/images/PA7-Social-Advertising-Agency.jpg', 'PA7 Social Advertising Agency')">
                     <img src="https://xpertsols.com/images/PA7-Social-Advertising-Agency.jpg" alt="PA7 Social Advertising Agency">
                     <div class="project-overlay">
@@ -538,6 +549,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
 
         <!-- Lightbox Modal -->
